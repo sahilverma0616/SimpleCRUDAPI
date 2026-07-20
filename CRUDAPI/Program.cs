@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer(); // Required for minimal APIs or modern routing
 builder.Services.AddSwaggerGen();
+//builder.Services.AddScoped<IApplicationBuilder, ApplicationBuilder>();
 
 var app = builder.Build();
 
